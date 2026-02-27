@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-курс по программированию</title>
+    <link rel="stylesheet" href="styles/bulma/css/bulma.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-light">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img class="navbar-item" src="assets/icons/logo.svg" alt="Логотип">
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="PhoneBurger">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+
+                </div>
+
+                <div id="PhoneBurger" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-active" href="index.html">
+                            <span class="has-text-link">Главная</span>
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <span class="navbar-link" tabindex="0">Каталог курсов</span>
+                            <div class="navbar-dropdown" href="#">
+                                <a class="navbar-item" href="HTML.html">HTML</a>
+                                <a class="navbar-item" href="С_plus_plus.html">C++</a>
+                                <a class="navbar-item" href="#Python">Python</a>
+                                <a class="navbar-item" href="#Java">Java</a>
+                                <a class="navbar-item" href="#Assembler">Assembler</a>
+                            </div>
+                        </div>
+                        <a class="navbar-item" href="about.html">О нас</a>
+                        <a class="navbar-item" href="contacts.html">Контакты</a>
+                        <a class="navbar-item" href="faq.html">FAQ</a>
+                    </div>
+                    
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#Login">Вход</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="hero is-primary">
+            <div class="container">
+                <div class="hero-body">
+                    <div class="columns">
+                        <div class="column">
+                            <p class="title">Добро пожаловать в мир кода и алгоритмов!</p>
+                            <p class="subtitle">Получи доступ ко множеству наинтерейснейших курсов всего-то за [символическая сумма] рублей</p>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" type="email" placeholder="example@mail.com">
+                                    
+                                    <span class="icon is-small is-left">
+                                        <img class="has-background-light is-rounded p-1" src="assets/icons/mail.svg" alt="mail" style="height: 2em; width: 2em;">
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="button is-light is-large" tabindex="0" href="#Registr">Зарегистрироваться</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-two-thirds">
+                        <h1 class="title is-1">Совсем немного о нас</h1>
+                        <p>Мы маленькая развивающиеся компания с курсами программирования. Пока у компании нет опыта, но у наших преподаваетелей он есть. Мы готовы развиваться и прислушиваться к нашим дорогим клиентам.</p>
+                    </div>
+
+                    <div class="column">
+                        <figure class="image">
+                            <img src="assets\images\programist.jpg" alt="programmist picture">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="Why" class="section">
+            <div class="container">
+                <h1 class="title is-1">Почему именно мы?</h1>
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <h4 class="title is-4">Качество</h4>
+                            <p class="subtitle">Материал курсов, подготовленный профессионалами своего дела, имеет все необходимые и дополнительные знания о популярных языках программирования</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="box">
+                            <h4 class="title is-4">Поддержка 24/7</h4>
+                            <p class="subtitle">Наши специалисты помогут выбрать нужный вам курс, помогут с установкой необходимого ПО, а в случае возникновенния ошибок, дадут подробные инструкции для их решения </p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="box">
+                            <h4 class="title is-4">Сообщество</h4>
+                            <p class="subtitle">Покупая любой курс вы НАВСЕГДА получаете доступ к нашему форуму с дружелюбным комъюнити и бесконечным потоком интересных решений и реализаций идей</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Feedback" class="section">
+            <div class="container">
+                <h1 class="title is-1">Настоящие отзывы</h1>
+                <h1 class="subtitle is-9">и мы их не боимся :)</h1>
+                
+                <div id="feedback_1" class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://fikiwiki.com/uploads/posts/2022-02/1644845170_28-fikiwiki-com-p-nyashnie-kotiki-milie-kartinki-29.jpg" alt="Image" />
+                            </figure>
+                        </div>
+
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                <strong>Надежда Н.</strong> <small>Na*****@meil.ram</small>
+                                <small>16d</small>
+                                <br />
+                                Пока училась я не теряла НадЕжДу что у меня все получиться... И У МЕНЯ ПОЛУЧИЛОСЬ! Теперь я купаюсь в коде как в воде, вожу VS Code как яхту, и богата как мой кот (он съел 100 рублей). Возьму еще один курсик потом :3 
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="feedback_2" class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://e7.pngegg.com/pngimages/654/923/png-clipart-rage-comic-trollface-anger-internet-meme-meme-mammal-face.png" alt="Image" />
+                            </figure>
+                        </div>
+
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                <strong>Олегсандр</strong> <small>IHate*****@meil.ram</small>
+                                <small>1y</small>
+                                <br />
+                                    ВАША КОНТОРА - ПОСЛЕДНЕЕ К КОМУ Я В БУДУЩЕМ ОБРАЩЮСЬ! Хотел выучить Assembler, закинул много денег ХОТЬ БЫ ЗАРАНЕЕ НАПИСАЛИ СТОИМОСТЬ, и эти деньги неоправдались тк я НИЧЕГО не понял, а на форуме сидят одни новички застрявшие на задании Hello World. БЕСИТ!
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="feedback_3" class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://bulma.io/assets/images/placeholders/128x128.png" alt="Image" />
+                            </figure>
+                        </div>
+
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                <strong>Petya23214</strong> <small>dbwj3*****@meil.ram</small>
+                                <small>2d</small>
+                                <br />
+                                    Норм, неплохо
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <p><strong>CoderPlus</strong></p>
+                    <p><small>Онлайн-курсы по программированию</small></p>
+                    <p class="is-size-7">coderplus@edu.code.dev</p>
+                    <p class="is-size-7">+7 (123) 456-78-90</p>
+                </div>
+                <div class="column">
+                    <p>Copyright ООО "CoderPlus" 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>

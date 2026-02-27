@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-курс по программированию</title>
+    <link rel="stylesheet" href="styles/bulma/css/bulma.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-light">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img class="navbar-item" src="assets/icons/logo.svg" alt="Логотип">
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="PhoneBurger">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+
+                </div>
+
+                <div id="PhoneBurger" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Главная</a>
+                        
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <span class="navbar-link" tabindex="0">Каталог курсов</span>
+                            <div class="navbar-dropdown" href="#">
+                                <a class="navbar-item" href="HTML.html">HTML</a>
+                                <a class="navbar-item" href="С_plus_plus.html">C++</a>
+                                <a class="navbar-item" href="#Python">Python</a>
+                                <a class="navbar-item" href="#Java">Java</a>
+                                <a class="navbar-item" href="#Assembler">Assembler</a>
+                            </div>
+                        </div>
+                        <a class="navbar-item" href="about.html">О нас</a>
+                        <a class="navbar-item" href="contacts.html">Контакты</a>
+                        <a class="navbar-item is-active" href="faq.html">
+                            <span class="has-text-link">FAQ</span>
+                        </a>
+                    </div>
+                    
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#Login">Вход</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="title is-1">Часто задаваемые вопросы</h1>
+                <h1 class="subtitle">Нажмите на интересующий вопрос</h1>
+
+                <div id="faq_1" class="box">
+                    <div class="columns">
+                        <div class="column is-three-quarters">
+                            <details>
+                                <summary class="has-text-weight-bold is-size-5">
+                                    Как долго идет обучение?
+                                </summary>
+                                <div class="content mt-3">
+                                    <p>Все зависит от вас и выбранного курса:</p>
+                                    <ul>
+                                        <li>Маленький курс, но учить каждый параграф раз в неделю</li>
+                                        <li>Большой курс, но учить 5 параграфов за день</li>
+                                        <li>Маленький курс, но учить 5 параграфов за день</li>
+                                        <li>Большой курс, но учить каждый параграф раз в неделю</li>
+                                    </ul>
+                                    <p>Как бы долго вы не учились, мы верим, что у вас все получится и вы сможете освоить курс в полном объеме и в своем темпе.</p>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="faq_2" class="box">
+                    <div class="columns">
+                        <div class="column is-three-quarters">
+                            <details>
+                                <summary class="has-text-weight-bold is-size-5">
+                                    Почему так мало языков программирования доступно для обучения?
+                                </summary>
+                                <div class="content mt-3">
+                                    <p>Наша компания решила сделать курсы согласно списку одних из самых популярных и востребованных языков программирования на рынке. Со временем планируется добавление других менее востребованных, но не менее важных языков программирования, например уже добавлен курс изучения Assembler, признанный познакомить будущего программиста с низкоуровневым языком для лучшего понимания процессов.</p>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="faq_3" class="box">
+                    <div class="columns">
+                        <div class="column is-three-quarters">
+                            <details>
+                                <summary class="has-text-weight-bold is-size-5">
+                                    Можно ли оплатить курсы наличными деньгами?
+                                </summary>
+                                <div class="content mt-3">
+                                    <p>Можно! Мы выставим вам счет, который позже можно оплатить в любом доступном и удобном вам офисе банка. Но также для вашего удобства мы принимаем платежи:</p>
+                                        <ul>
+                                            <li>банковскими картами</li>
+                                            <li>СПБ</li>
+                                            <li>ЮМани</li>
+                                            <li>Тройка</li> 
+                                            <li>Бонусами Спасибо</li>
+                                        </ul>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="faq_4" class="box">
+                    <div class="columns">
+                        <div class="column is-three-quarters">
+                            <details>
+                                <summary class="has-text-weight-bold is-size-5">
+                                    Можно ли вернуть деньги, если курс не понравился?
+                                </summary>
+                                <div class="content mt-3">
+                                    <p>Можно, а зачем? Мы всегда готовы вам помочь в освоении курса, но если вдруг что-то пойдет не так: готовы заменить курс, на тот который вам будет более интересен!</p>
+                                    <p class="is-size-7">(замена происходит один раз на купленный курс и при условии, что цена нового курса будет такой же или меньше, чем цена старого)</p>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <p><strong>CoderPlus</strong></p>
+                    <p><small>Онлайн-курсы по программированию</small></p>
+                    <p class="is-size-7">coderplus@edu.code.dev</p>
+                    <p class="is-size-7">+7 (123) 456-78-90</p>
+                </div>
+                <div class="column">
+                    <p>Copyright ООО "CoderPlus" 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>

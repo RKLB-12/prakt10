@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-курс по программированию</title>
+    <link rel="stylesheet" href="styles/bulma/css/bulma.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-light">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img class="navbar-item" src="assets/icons/logo.svg" alt="Логотип">
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="PhoneBurger">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+
+                </div>
+
+                <div id="PhoneBurger" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="index.html">Главная</a>
+                        
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <span class="navbar-link" tabindex="0">Каталог курсов</span>
+                            <div class="navbar-dropdown" href="#">
+                                <a class="navbar-item" href="HTML.html">HTML</a>
+                                <a class="navbar-item" href="С_plus_plus.html">C++</a>
+                                <a class="navbar-item" href="#Python">Python</a>
+                                <a class="navbar-item" href="#Java">Java</a>
+                                <a class="navbar-item" href="#Assembler">Assembler</a>
+                            </div>
+                        </div>
+                        <a class="navbar-item" href="about.html">О нас</a>
+                        <a class="navbar-item is-active" href="contacts.html">
+                            <span class="has-text-link">Контакты</span>
+                        </a>
+                        <a class="navbar-item" href="faq.html">FAQ</a>
+                    </div>
+                    
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#Login">Вход</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="content">
+                    <h1 class="title is-1">Как с нами связаться?</h1>
+                        <div class="columns">
+                            <div class="column is-half">
+                                <p>Электронная почта:</p>
+                                <ul>
+                                    <li>coderplus@edu.code.dev</li>
+                                    <li>coderplus@gmail.com</li>
+                                    <li>coderplus@yandex.ru</li>
+                                    <li>coderplus@mail.com</li>
+                                </ul>
+
+                                <p>Телефонные номера:</p>
+                                <ul>
+                                    <li>+7 (123) 456-78-90</li>
+                                </ul>
+
+                                <p>Офис (принимаем только бумажные письма):</p>
+                                <ul>
+                                    <li>г.Москва ул. Малая Дмитровка, 23/15с1  (Скоро переедем сюда)</li>
+                                </ul>
+                                <div class="embed-map-fixed"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=%D1%83%D0%BB.%20%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%20%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%2C%2023%2F15%D1%811&t=&z=16&ie=UTF8&iwloc=B&output=embed"></iframe></div><style>.embed-map-fixed{position:relative;text-align:right;width:600px;height:400px;}.embed-map-container{overflow:hidden;background:none!important;width:600px;height:400px;}.embed-map-frame{width:600px!important;height:400px!important;}</style></div>
+                            </div>
+
+                            <div class="column">
+                                <div class="box">
+                                    <form id="feedbackFormID">
+                                        <h1 class="is-title-5">Оставьте заявку</h1>
+                                        <div class="field">
+                                            <label class="label">ФИО</label>
+                                            <div class="control">
+                                                <input class="input" type="text" placeholder="Ваше ФИО" id="fullname">
+                                            </div>
+                                        </div>
+                                        
+
+                                        <p>Выберите желаемый(ые) путь(и) обратной связи</p>
+                                        <div class="ml-5" id="choose_email_phone">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="checkbox">
+                                                    <input type="checkbox" id="choose_email">
+                                                    Электронная почта
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="checkbox">
+                                                    <input type="checkbox" id="choose_phone">
+                                                    Телефон
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+
+
+                                        <div class="field">
+                                            <label class="label">Электронная почта</label>
+                                            <div class="control">
+                                                <input class="input" type="email" placeholder="example@mail.com" id="email">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="field">
+                                            <label class="label">Телефон</label>
+                                            <div class="control">
+                                                <input class="input" type="text" placeholder="+7(XXX) XXX-XX-XX" id="phone">
+                                            </div>
+                                        </div>
+
+                                        <div class="field">
+                                            <label class="label">Тема обращения</label>
+                                            <div class="control">
+                                                <input class="input" type="text" placeholder="О чем бы вы хотели нас спросить?" id="header_message">
+                                            </div>
+                                            <p class="help is-danger" id="header_message_help">Введите хоть что-то</p>
+                                        </div>
+
+                                        <div class="field">
+                                            <label class="label">Текст обращения</label>
+                                            <div class="control">
+                                                <textarea class="textarea" placeholder="Расскажите подробно" id="message"></textarea>
+                                            </div>
+                                            <p class="help is-danger" id="message_help">Введите хоть что-то</p>
+                                        </div>
+
+
+                                        <p>Согласие на обработку персональных данных</p>
+                                        <div class="ml-5 pb-5">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="checkbox">
+                                                        <input type="checkbox" id="agreement" required>
+                                                        Я согласен с <a href="#">политикой обработки персональных данных</a>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="field is-grouped">
+                                            <div class="control">
+                                                <button class="button is-link" type="submit">Отправить обращение</button>
+                                            </div>
+                                            <div class="control">
+                                                <button class="button is-link is-light" type="reset">Очистить введенные данные</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>   
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <p><strong>CoderPlus</strong></p>
+                    <p><small>Онлайн-курсы по программированию</small></p>
+                    <p class="is-size-7">coderplus@edu.code.dev</p>
+                    <p class="is-size-7">+7 (123) 456-78-90</p>
+                </div>
+                <div class="column">
+                    <p>Copyright ООО "CoderPlus" 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/validation.js"></script>
+    <script src="scripts/consoleLogger.js"></script>
+</body>
+
+
+</html>
